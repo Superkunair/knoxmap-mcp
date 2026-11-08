@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "knoxmap": {
+      "command": "C:\\Users\\Jordan\\Desktop\\knoxmap\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "knoxmap_mcp"],
+      "env": {
+        "KNOXMAP_DIR": "C:\\Users\\Jordan\\Desktop\\knoxmap",
+        "PYTHONPATH": "C:\\Users\\Jordan\\knoxmap-mcp\\src"
+      }
+    }
+  }
+}

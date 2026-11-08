@@ -1,0 +1,17 @@
+[project]
+name = "knoxmap-mcp"
+version = "0.1.0"
+description = "MCP server for KnoxMap: read and refine real-world Project Zomboid maps"
+requires-python = ">=3.12"
+# Runs on KnoxMap's own .venv, which already has KnoxMap's pinned packages.
+dependencies = ["mcp>=2.3,<3"]
+
+[project.scripts]
+knoxmap-mcp = "knoxmap_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

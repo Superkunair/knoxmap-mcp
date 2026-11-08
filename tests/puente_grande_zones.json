@@ -1,0 +1,31 @@
+{
+  "map": "puente_grande_prison",
+  "bbox": {"south": 20.5460, "west": -103.2150, "north": 20.5730, "east": -103.1780},
+  "zones": [
+    {
+      "name": "Penal de Puente Grande (state)",
+      "ring": [[-103.2030074, 20.5587387], [-103.1981365, 20.5578597],
+               [-103.1974954, 20.5611446], [-103.202369, 20.5620387]],
+      "wall_style": "stucco",
+      "settings": {
+        "max_levels": 2, "apartment_chance": 0, "apartment_footprint": 4000,
+        "max_size": 24, "m2_per_person": 70, "spawn_density": 4,
+        "zombies_per_resident": 1, "tree_density": 2, "parking_density": 0.4,
+        "neighbourhood_tiles": 300
+      }
+    },
+    {
+      "name": "CEFERESO 2 Puente Grande (federal)",
+      "ring": [[-103.1964842, 20.5576362], [-103.190916, 20.5565814],
+               [-103.1904546, 20.558912], [-103.1956045, 20.5598663],
+               [-103.1958191, 20.5589019], [-103.1962053, 20.5589321]],
+      "wall_style": "painted",
+      "settings": {
+        "max_levels": 2, "apartment_chance": 0, "apartment_footprint": 4000,
+        "max_size": 24, "m2_per_person": 70, "spawn_density": 4,
+        "zombies_per_resident": 1, "tree_density": 2, "parking_density": 0.4,
+        "neighbourhood_tiles": 300
+      }
+    }
+  ]
+}
